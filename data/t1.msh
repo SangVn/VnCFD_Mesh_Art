@@ -1,0 +1,109 @@
+(----Tochnog Input File Created by Gmsh Version 2.13.1 ----)
+ 
+(**EDIT OR MODIFY THE ENTRIES BELOW AS REQUIRED**)
+echo  -yes 
+number of space dimensions (add number here) 
+derivatives 
+materi_velocity 
+materi_displacement 
+materi_strain_total  
+materi_stress  
+condif_temperature 
+number_of_integration_points (add number here) 
+end_initia 
+options_element_dof -yes  
+
+(----------------Nodes----------------)
+
+node 1 0 0
+node 2 1 0
+node 3 1 1
+node 4 0 1
+node 5 0.2499999999994121 0
+node 6 0.499999999998694 0
+node 7 0.7499999999993416 0
+node 8 1 0.7500000000003465
+node 9 1 0.5000000000020591
+node 10 1 0.2500000000010404
+node 11 0.7500000000003465 1
+node 12 0.5000000000020591 1
+node 13 0.2500000000010404 1
+node 14 0 0.7500000000003465
+node 15 0 0.5000000000020591
+node 16 0 0.2500000000010404
+node 17 0.7953881872688007 0.3640358958129074
+node 18 0.3760593423216801 0.7883069887365302
+node 19 0.2165063509458092 0.3750000000015498
+node 20 0.6240050006304526 0.788599344160138
+node 21 0.5000000000024007 0.5669872981101323
+node 22 0.2125963991938304 0.6328802641596495
+node 23 0.4796557459308022 0.2917273223629477
+node 24 0.7634332779184614 0.6010369744930153
+node 25 0.3103138265072446 0.1768489190760882
+node 26 0.6249999999990179 0.1552901902875176
+node 27 0.1830127018930926 0.816987298107279
+node 28 0.8169872981085345 0.8169872981085345
+node 29 0.8219022194689817 0.1749592066748173
+node 30 0.6167789108785373 0.4115988944976293
+node 31 0.1459265064212019 0.1484804596487299
+
+(++++++++++++++ E L E M E N T S ++++++++++++++)
+
+element 21 -tria3  21 19 23
+element 22 -tria3  19 21 22
+element 23 -tria3  21 18 22
+element 24 -tria3  20 21 24
+element 25 -tria3  6 23 25
+element 26 -tria3  24 21 30
+element 27 -tria3  23 6 26
+element 28 -tria3  12 13 18
+element 29 -tria3  15 16 19
+element 30 -tria3  10 9 17
+element 31 -tria3  12 18 20
+element 32 -tria3  20 18 21
+element 33 -tria3  11 12 20
+element 34 -tria3  5 6 25
+element 35 -tria3  26 17 30
+element 36 -tria3  14 15 22
+element 37 -tria3  9 8 24
+element 38 -tria3  15 19 22
+element 39 -tria3  17 9 24
+element 40 -tria3  21 23 30
+element 41 -tria3  23 19 25
+element 42 -tria3  4 14 27
+element 43 -tria3  13 4 27
+element 44 -tria3  3 11 28
+element 45 -tria3  8 3 28
+element 46 -tria3  2 10 29
+element 47 -tria3  7 2 29
+element 48 -tria3  17 24 30
+element 49 -tria3  17 26 29
+element 50 -tria3  19 16 31
+element 51 -tria3  23 26 30
+element 52 -tria3  24 8 28
+element 53 -tria3  14 22 27
+element 54 -tria3  6 7 26
+element 55 -tria3  10 17 29
+element 56 -tria3  18 13 27
+element 57 -tria3  11 20 28
+element 58 -tria3  25 19 31
+element 59 -tria3  16 1 31
+element 60 -tria3  1 5 31
+element 61 -tria3  20 24 28
+element 62 -tria3  22 18 27
+element 63 -tria3  26 7 29
+element 64 -tria3  5 25 31
+
+( +------------+---------Physical Groups Section----------+------------+
+
+- In Tochnog use Physical Groups to define 'element_group' entities to  -
+- identify materials, and groups of nodes to apply boundary conditions -)
+
+(- For example, groups of ELEMENTS chosen using gmsh 'physical groups' can be used as follows)
+(- element_group  -ra INSERT HERE GROUP OF ELEMENTS SAVED WITH GMSH -ra  Material number)
+
+(- For example, groups of nodes chosen using gmsh 'physical groups' can be used as follows)
+(- bounda_unknown 0  -ra INSERT HERE GROUP OF NODES SAVED WITH GMSH -ra   -velx -vely )
+(- bounda_time 0      0.000      0.000 1000000.000      0.000 )
+
+( +------------+---------Physical Groups Section----------+------------+
