@@ -6,4 +6,4 @@ VnCFD Mesh Art là một khóa học ngắn hướng dẫn chia và biểu diễ
 
 Bạn có thể xem tài liệu ở định dạng .ipynb, .html hay theo đường link:
 
-[Tutor](https://nbviewer.jupyter.org/github/SangVn/VnCFD_Mesh_Art/blob/master/VnCFD Mesh Art.ipynb)
+[Tutor](https://github.com/SangVn/VnCFD_Mesh_Art/blob/master/VnCFD%20Mesh%20Art.ipynb)
