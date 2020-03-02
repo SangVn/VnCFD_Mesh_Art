@@ -3,3 +3,5 @@
 VnCFD Mesh Art là một khóa học ngắn hướng dẫn chia và biểu diễn lưới 2D bằng Gmsh và Python. 
 
 <img src='img/Whale.png'>
+
+[Link nbviewer](https://nbviewer.jupyter.org/github/SangVn/VnCFD_Mesh_Art/blob/master/VnCFD%20Mesh%20Art.ipynb?fbclid=IwAR0c1pIJq_i7ETsT4UxWnwza3IAOl_K3HwyyZj4c_mW__1Q6siSo42j_87U)
